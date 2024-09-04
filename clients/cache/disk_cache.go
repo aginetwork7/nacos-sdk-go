@@ -24,10 +24,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/file"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
+	"github.com/aginetwork7/nacos-sdk-go/v2/common/file"
+	"github.com/aginetwork7/nacos-sdk-go/v2/common/logger"
+	"github.com/aginetwork7/nacos-sdk-go/v2/model"
+	"github.com/aginetwork7/nacos-sdk-go/v2/util"
 	"github.com/pkg/errors"
 )
 

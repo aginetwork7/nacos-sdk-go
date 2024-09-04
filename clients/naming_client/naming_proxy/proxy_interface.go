@@ -17,7 +17,7 @@
 package naming_proxy
 
 import (
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
+	"github.com/aginetwork7/nacos-sdk-go/v2/model"
 )
 
 // INamingProxy ...

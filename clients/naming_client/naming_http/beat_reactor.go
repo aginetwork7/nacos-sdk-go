@@ -27,15 +27,15 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/nacos-group/nacos-sdk-go/v2/common/monitor"
+	"github.com/aginetwork7/nacos-sdk-go/v2/common/monitor"
 
+	"github.com/aginetwork7/nacos-sdk-go/v2/clients/cache"
+	"github.com/aginetwork7/nacos-sdk-go/v2/common/constant"
+	"github.com/aginetwork7/nacos-sdk-go/v2/common/logger"
+	"github.com/aginetwork7/nacos-sdk-go/v2/common/nacos_server"
+	"github.com/aginetwork7/nacos-sdk-go/v2/model"
+	"github.com/aginetwork7/nacos-sdk-go/v2/util"
 	"github.com/buger/jsonparser"
-	"github.com/nacos-group/nacos-sdk-go/v2/clients/cache"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/constant"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/logger"
-	"github.com/nacos-group/nacos-sdk-go/v2/common/nacos_server"
-	"github.com/nacos-group/nacos-sdk-go/v2/model"
-	"github.com/nacos-group/nacos-sdk-go/v2/util"
 	"golang.org/x/sync/semaphore"
 )
 
